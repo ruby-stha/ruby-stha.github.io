@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Jekyll Photo Grid Gallery
 =========
 
@@ -30,3 +31,9 @@ Localhost deployment
 After [downloading](https://github.com/nadjetey/GridGallery/archive/master.zip), use the normal process of serving a jekyll site. Navigate to the directory in terminal and type `jekyll build` followed by `jekyll serve`
 
 For more details, read [documentation](http://jekyllrb.com/)
+=======
+DWITMemo
+========
+
+Memories of DWIT
+>>>>>>> a06b65508bc84377d74e528c71a0ebe360c0e75e
