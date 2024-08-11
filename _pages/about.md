@@ -9,7 +9,7 @@ redirect_from:
 
 I am currently a third-year PhD student in Computing & Information Sciences at Rochester Institute of Technology, working as a graduate research assistant under the guidance of [Prof. Linwei Wang](https://pht180.rit.edu/cblwang/linwei-wang/) in the [Computational Biomedicine Lab](https://pht180.rit.edu/cblwang/).
 
-**Research Area**: My research is mostly focused on *fairness and distributional robustness of deep learning models* with overall interest in generative models and computer vision.
+**Research Area**: My research focuses on the *fairness and distributional robustness of deep learning models*, with a broader interest in generative models and computer vision.
 
 **Education**
 
