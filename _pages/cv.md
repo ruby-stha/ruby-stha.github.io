@@ -14,7 +14,7 @@ redirect_from:
     <title>PDF Viewer</title>
 </head>
 <body>
-    <embed src="http://localhost:4000/files/Ruby_Shrestha_CV.pdf" type="application/pdf" width="600" height="800">
+    <embed src="https://ruby-stha.github.io/files/Ruby_Shrestha_CV.pdf" type="application/pdf" width="600" height="800">
 </body>
 </html>
 
