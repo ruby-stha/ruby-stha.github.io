@@ -9,7 +9,7 @@ redirect_from:
 
 I am currently a fourth-year PhD student in Computing & Information Sciences at Rochester Institute of Technology, working as a graduate research assistant under the guidance of [Prof. Linwei Wang](https://pht180.rit.edu/cblwang/linwei-wang/) in the [Computational Biomedicine Lab](https://pht180.rit.edu/cblwang/).
 
-**Research Area**: My research focuses on the *fairness and distributional robustness of deep learning models*, with a broader interest in generative models, counterfactual data augmentation, and computer vision. I am currently researching on making generative models robust towards (spurious) feature correlations in data.
+**Research Area**: My research focuses on the *fairness and distributional robustness of deep learning models*, with a broader interest in generative models and computer vision. I am currently working on: counterfactual generation with causal generative models; robust generative modeling under attribute correlations.
 
 **Education**
 
