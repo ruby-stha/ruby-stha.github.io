@@ -14,7 +14,7 @@ redirect_from:
     <title>PDF Viewer</title>
 </head>
 <body>
-    <embed src="https://ruby-stha.github.io/files/Aug2026_Ruby.pdf" type="application/pdf" width="600" height="800">
+    <embed src="https://ruby-stha.github.io/files/Aug2026_Ruby_.pdf" type="application/pdf" width="600" height="800">
 </body>
 </html>
 
