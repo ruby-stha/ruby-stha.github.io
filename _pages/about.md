@@ -26,20 +26,29 @@ My current work explores these themes in computer vision, investigating how corr
       ProReGen: Progressive Residual Generation under Attribute Correlations
     </a>
   </h3>
-  <p style="font-size: 0.85em; line-height: 1.6; margin: 0 0 12px;">
+  <p style="margin: 0 0 12px;">
     <strong>Ruby Shrestha</strong>, Ajay Gopi, Casey Meisenzahl,
     Bipin Lekhak, Linwei Wang<br>
     <strong>ICLR 2026</strong>
   </p>
-  <p style="font-size: 0.9em; line-height: 1.6;">
-    Generative models can struggle to produce requested attribute
-    combinations when those combinations are rare in training data.
-    ProReGen learns from abundant combinations, then uses progressive
-    residual learning to capture underrepresented combinations.
-    The framework improves attribute correctness across VAEs, GANs,
-    and diffusion models.
+  <a href="https://openreview.net/pdf?id=2LzYaW032Q">
+    <img
+      src="{{ '/images/proregen.png' | relative_url }}"
+      alt="ProReGen method: recasting correlated attribute conditioning through residualization and two-stage learning."
+      loading="lazy"
+      style="display: block; width: 100%; height: auto; margin: 16px 0 20px;">
+  </a>
+  <p>
+    Correlations among attributes in training data can cause generative
+    models to struggle with requested combinations that conflict with
+    those correlations. ProReGen addresses this through attribute
+    residualization and progressive learning: it first learns from
+    abundant, correlation-aligned samples, then uses limited
+    correlation-conflicting samples to learn residual information.
+    The framework improves attribute correctness for underrepresented
+    combinations across VAEs, GANs, and diffusion models.
   </p>
-  <p style="font-size: 0.85em; margin-bottom: 0;">
+  <p style="margin-bottom: 0;">
     <a href="https://openreview.net/pdf?id=2LzYaW032Q">Paper</a>
     &nbsp;·&nbsp;
     <a href="https://github.com/ruby-stha/ProReGen_ICLR2026">Code</a>
@@ -50,14 +59,9 @@ My current work explores these themes in computer vision, investigating how corr
 
 [View all publications]({{ '/publications/' | relative_url }})
 
-## Education
+**Education**
 
-<div style="margin-bottom: 20px;">
-  PhD in Computing &amp; Information Sciences<br>
-  <span style="font-size: 0.85em;">Rochester Institute of Technology</span>
-</div>
-
-<div style="margin-bottom: 20px;">
-  Bachelor in Computer Science &amp; Information Technology, 2017<br>
-  <span style="font-size: 0.85em;">Tribhuvan University, Nepal</span>
-</div>
+<img src="https://academicpages.github.io/images/favicon.ico" alt="Alt text" width="20" height="20">  PhD in Computing & Information Sciences<br>
+<span class="university" style="font-size:.8em"> &nbsp; &nbsp; &nbsp; Rochester Institute of Technology</span><br><br>
+<img src="https://academicpages.github.io/images/favicon.ico" alt="Alt text" width="20" height="20">  Bachelor in Computer Science & Information Technology, 2017<br>
+<span class="university" style="font-size:.8em">&nbsp; &nbsp; &nbsp; Tribhuvan University, Nepal</span>
