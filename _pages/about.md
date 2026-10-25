@@ -9,12 +9,12 @@ redirect_from:
 
 I am a final year PhD student in Computing and Information Sciences at Rochester Institute of Technology, advised by [Prof. Linwei Wang](https://pht180.rit.edu/cblwang/linwei-wang/) in the [Computational Biomedicine Lab](https://pht180.rit.edu/cblwang/).
 
-My research focuses on deep generative modeling, with an emphasis on controllable generation and robustness. I am broadly interested in developing reliable generative models that move the field of trustworthy AI forward.
+My research focuses on **deep generative modeling**, with an emphasis on **controllable generation** and **robustness to distribution shift**. I am broadly interested in developing reliable generative models that move the field of trustworthy AI forward.
 
-My current work explores these themes in computer vision, investigating how correlations among attributes in training data affect image generation, and developing causal generative models for controllable and counterfactual image generation.
+My current work explores these themes in computer vision, investigating how correlations among attributes in training data affect image generation and developing **causal generative models** for controllable and counterfactual image generation.
 
 <div class="availability-note">
-  I am seeking full-time <strong>Applied Scientist or Research Scientist</strong> roles in machine learning, with interest in generative AI or trustworthy ML. Please feel free to <a href="mailto:rs9466@rit.edu">get in touch</a>.
+  I am seeking full-time <strong>Applied Scientist or Research Scientist</strong> roles in machine learning, with interest in generative AI and trustworthy ML. Please feel free to <a href="mailto:rs9466@rit.edu">get in touch</a>.
 </div>
 
 
