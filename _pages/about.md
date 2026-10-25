@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a final-year PhD student in Computing and Information Sciences at Rochester Institute of Technology, advised by [Prof. Linwei Wang](https://pht180.rit.edu/cblwang/linwei-wang/) in the [Computational Biomedicine Lab](https://pht180.rit.edu/cblwang/). My research focuses on building **reliable deep generative models**: improving their robustness and controllability, particularly for cases underrepresented in the training data.
+I am a final-year PhD student in Computing and Information Sciences at Rochester Institute of Technology, advised by [Prof. Linwei Wang](https://www.rit.edu/cblwang/linwei-wang) in the [Computational Biomedicine Lab](https://www.rit.edu/cblwang/directory). My research focuses on building **reliable deep generative models**: improving their robustness and controllability, particularly for cases underrepresented in the training data.
 
 My current work explores these themes in computer vision:
 
@@ -47,8 +47,7 @@ My current work explores these themes in computer vision:
       class="research-image"
       src="{{ '/images/proregen.png' | relative_url }}"
       alt="ProReGen method: recasting correlated attribute conditioning through residualization and two-stage learning."
-      loading="lazy"
-      style="width: 70%; height: auto; margin: 20px auto 24px;">
+      loading="lazy">
   </a>
 
   <p>
@@ -76,9 +75,25 @@ My current work explores these themes in computer vision:
 
 </div>
 
-## Education
+<!-- ## Education
 
 <img src="https://academicpages.github.io/images/favicon.ico" alt="Alt text" width="20" height="20">  PhD in Computing & Information Sciences<br>
-<span class="university" style="font-size:.8em"> &nbsp; &nbsp; &nbsp; Rochester Institute of Technology</span><br><br>
+<span class="university"> &nbsp; &nbsp; &nbsp; Rochester Institute of Technology</span><br><br>
 <img src="https://academicpages.github.io/images/favicon.ico" alt="Alt text" width="20" height="20">  Bachelor in Computer Science & Information Technology, 2017<br>
-<span class="university" style="font-size:.8em">&nbsp; &nbsp; &nbsp; Tribhuvan University, Nepal</span>
+<span class="university">&nbsp; &nbsp; &nbsp; Tribhuvan University, Nepal</span> -->
+
+{% assign full_news = site.pages | where: "permalink", "/news/" | first %}
+{% assign homepage_updates = full_news.updates | where: "year", 2026 %}
+
+<section class="ruby-updates" aria-labelledby="latest-updates">
+  <div class="updates-header">
+    <h2 id="latest-updates">Latest Updates</h2>
+    <a class="updates-all" href="{{ '/news/' | relative_url }}">View all news &rarr;</a>
+  </div>
+  {% for item in homepage_updates %}
+    <div class="update-row">
+      <span class="update-date">{{ item.date | escape }}</span>
+      <div class="update-copy">{{ item.text | markdownify }}</div>
+    </div>
+  {% endfor %}
+</section>

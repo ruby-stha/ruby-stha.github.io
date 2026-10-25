@@ -9,6 +9,10 @@
   color: #333;
 }
 
+.university {
+  font-size: 0.8em;
+}
+
 .research-header {
   display: flex;
   align-items: baseline;
@@ -47,9 +51,9 @@
 
 .research-project .research-image {
   display: block;
-  width: 100%;
+  width: 70%;
   height: auto;
-  margin: 20px 0 24px;
+  margin: 20px auto 24px;
 }
 
 .research-actions {
@@ -89,4 +93,89 @@
 .all-publications:focus-visible {
   outline: 2px solid #28627a;
   outline-offset: 3px;
+}
+
+.ruby-updates {
+  margin: 28px 0;
+}
+
+.ruby-updates .updates-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px 20px;
+  border-bottom: 1px solid #e3e9ed;
+  padding-bottom: 12px;
+  margin-bottom: 6px;
+}
+
+.ruby-updates .updates-header h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.ruby-updates .updates-all {
+  font-size: 0.8em;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.ruby-updates .updates-all:hover {
+  text-decoration: underline;
+}
+
+.ruby-updates .updates-year {
+  margin: 28px 0 4px;
+  border-bottom: 1px solid #e3e9ed;
+  padding-bottom: 10px;
+}
+
+.ruby-updates .update-row {
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  padding: 15px 0;
+  border-bottom: 1px solid #edf0f2;
+}
+
+.ruby-updates .update-date {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 5px;
+  background: #f3f7fa;
+  color: #28627a;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.ruby-updates .update-copy {
+  min-width: 0;
+  font-size: 0.95em;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.ruby-updates .update-copy p {
+  margin: 0;
+}
+
+.ruby-updates a:focus-visible {
+  outline: 2px solid #28627a;
+  outline-offset: 3px;
+}
+
+@media (max-width: 600px) {
+  .ruby-updates .update-row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .ruby-updates .update-date {
+    justify-self: start;
+  }
 }
