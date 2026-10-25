@@ -72,7 +72,7 @@ updates:
   year: 2018
   date: Apr 2018
   text: Graduated with a **Bachelor’s degree in Computer Science and Information Technology** from Tribhuvan University.
-- section: Earlier Highlights
+- section: Earlier Updates
   year: 2016
   date: Apr 2016
   text: Won the **International Girls in ICT Day Hackathon**.
