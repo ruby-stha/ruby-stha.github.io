@@ -81,6 +81,7 @@ author_profile: true
     margin: 0 0 16px;
     color: #526570;
     font-size: 0.9em;
+    font-style: italic;
     line-height: 1.6;
   }
 
