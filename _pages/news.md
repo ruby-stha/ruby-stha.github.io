@@ -66,7 +66,7 @@ updates:
 - section: Earlier Updates
   year: 2018
   date: Aug 2018
-  text: 'Gave an oral presentation on *Maze Solving with Anomaly Tolerant Dead End Filling and A*: Implementation and Analysis* at the **Fifth International Conference on Information Technology for Development (IT4D)**.'
+  text: 'Gave an oral presentation on *Maze Solving with Anomaly Tolerant Dead End Filling and A\*: Implementation and Analysis* at the **Fifth International Conference on Information Technology for Development (IT4D)**.'
 - section: Earlier Updates
   year: 2018
   date: Apr 2018
