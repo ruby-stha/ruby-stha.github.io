@@ -11,7 +11,7 @@ updates:
 - section: '2026'
   year: 2026
   date: Jul 2026
-  text: Served as a reviewer for **Computerized Medical Imaging and Graphics**.
+  text: Served as a reviewer for the journal **Computerized Medical Imaging and Graphics**.
 - section: '2026'
   year: 2026
   date: May 2026
