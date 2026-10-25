@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a final-year PhD student in Computing and Information Sciences at Rochester Institute of Technology, advised by [Prof. Linwei Wang](https://pht180.rit.edu/cblwang/linwei-wang/) in the [Computational Biomedicine Lab](https://pht180.rit.edu/cblwang/). My research focuses on making **deep generative models** more reliable: improving their robustness and controllability for cases underrepresented in their training data.
+I am a final-year PhD student in Computing and Information Sciences at Rochester Institute of Technology, advised by [Prof. Linwei Wang](https://pht180.rit.edu/cblwang/linwei-wang/) in the [Computational Biomedicine Lab](https://pht180.rit.edu/cblwang/). My research focuses on making **deep generative models** more reliable: improving their robustness and controllability for cases underrepresented in the training data.
 
 My current work explores these themes in computer vision:
 
