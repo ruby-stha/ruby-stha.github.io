@@ -14,8 +14,7 @@ My research focuses on deep generative modeling, with an emphasis on controllabl
 My current work explores these themes in computer vision, investigating how correlations among attributes in training data affect image generation, and developing causal generative models for controllable and counterfactual image generation.
 
 <div class="availability-note">
-  I am seeking full-time <strong>Applied Scientist or Research Scientist</strong> roles in deep learning, with interest in generative AI or trustworthy ML. I am available to start in <strong>2027</strong>.
-  Please feel free to <a href="mailto:rs9466@rit.edu">get in touch</a>.
+  I am seeking full-time <strong>Applied Scientist or Research Scientist</strong> roles in deep learning, with interest in generative AI or trustworthy ML. I am available to start in <strong>2027</strong>. Please feel free to <a href="mailto:rs9466@rit.edu">get in touch</a>.
 </div>
 
 
