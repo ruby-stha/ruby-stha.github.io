@@ -24,8 +24,7 @@ updates:
 - section: '2026'
   year: 2026
   date: Feb 2026
-  text: Gave a talk on *Heart Seat*, a home health monitoring system developed through a collaboration between [Casana](https://casanacare.com/)
-    and the [Computational Biomedicine Lab](https://www.rit.edu/cblwang/directory), at the **Take Heart Go Red** event.
+  text: Gave a talk on *AI in Cardiovascular Healthcare* at the **Take Heart Go Red** event, highlighting *Heart Seat*, a collaborative project between [Casana](https://casanacare.com/) and the [Computational Biomedicine Lab](https://www.rit.edu/cblwang/directory) focused on continuous at-home monitoring of heart health.
 - section: '2026'
   year: 2026
   date: Jan 2026
@@ -39,7 +38,7 @@ updates:
 - section: '2024'
   year: 2024
   date: Oct 2024
-  text: Gave a talk on *Spurious Correlations and Bias in AI Systems* at a seminar for clinical and behavioral health health psychology interns at RIT.
+  text: Gave a talk on *Spurious Correlations and Bias in AI Systems* at a seminar for clinical and behavioral health psychology interns at RIT.
 - section: '2023'
   year: 2023
   date: Oct 2023

@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a final-year PhD student in Computing and Information Sciences at Rochester Institute of Technology, advised by [Prof. Linwei Wang](https://www.rit.edu/cblwang/linwei-wang) in the [Computational Biomedicine Lab](https://www.rit.edu/cblwang/directory). My research focuses on building **reliable deep generative models**: improving their robustness and controllability, particularly for cases underrepresented in the training data.
+I am a final-year PhD candidate in Computing and Information Sciences at Rochester Institute of Technology, advised by [Prof. Linwei Wang](https://www.rit.edu/cblwang/linwei-wang) in the [Computational Biomedicine Lab](https://www.rit.edu/cblwang/directory). My research focuses on building **reliable deep generative models**: improving their robustness and controllability, particularly for cases underrepresented in the training data.
 
 My current work explores these themes in computer vision:
 
@@ -15,7 +15,7 @@ My current work explores these themes in computer vision:
 - **Controllable and counterfactual generation.** Going a step further, I develop causal generative models that account for relationships between attributes to improve controllable and counterfactual generation under varying strengths of these relationships.
 
 <div class="availability-note">
-  I am seeking full-time <strong>Applied Scientist</strong> or <strong>Research Scientist</strong> roles in machine learning, with interests spanning generative AI and trustworthy ML, starting summer 2027. Please feel free to <a href="mailto:rs9466@rit.edu">get in touch</a>.
+  I am seeking full-time <strong>Applied Scientist</strong> or <strong>Research Scientist</strong> roles in machine learning, with interests spanning generative AI and trustworthy ML, starting summer 2027. Please feel free to get in touch at **rs9466[at]rit[dot]edu**.
 </div>
 
 
@@ -73,6 +73,22 @@ My current work explores these themes in computer vision:
     </a>
   </div>
 
+</div>
+
+<div class="research-header">
+  <h2 id="industry-experience">Industry Experience</h2>
+  <a
+    class="all-publications"
+    href="{{ '/cv/' | relative_url }}">
+    Details in CV &rarr;
+  </a>
+</div>
+
+<div class="industry-experience">
+  <h3>Deerwalk Inc. / Cedar Gate Technologies <span class="exp-years">2015–2021</span></h3>
+  <p>
+    Before my PhD, I spent over five years at Deerwalk, progressing from Software Engineering Intern to Software Engineer, Team Lead, and Senior Software Engineer and Development Manager. I contributed to and led projects to build industry-standard descriptive, prescriptive, and trend-based healthcare reports and data visualizations.
+  </p>
 </div>
 
 <!-- ## Education
