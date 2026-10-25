@@ -19,7 +19,7 @@ My current work explores these themes in computer vision, investigating how corr
 
 
 <div class="research-header">
-  <h2 id="selected-research">Selected Research</h2>
+  <h2 id="selected-research">Selected Recent Research</h2>
   <a
     class="all-publications"
     href="{{ '/publications/' | relative_url }}">
