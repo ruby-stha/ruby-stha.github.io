@@ -7,15 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a final-year PhD student in Computing and Information Sciences at Rochester Institute of Technology, advised by [Prof. Linwei Wang](https://pht180.rit.edu/cblwang/linwei-wang/) in the [Computational Biomedicine Lab](https://pht180.rit.edu/cblwang/). My research focuses on making **deep generative models** more reliable: improving their robustness and controllability for cases underrepresented in the training data.
+I am a final-year PhD student in Computing and Information Sciences at Rochester Institute of Technology, advised by [Prof. Linwei Wang](https://pht180.rit.edu/cblwang/linwei-wang/) in the [Computational Biomedicine Lab](https://pht180.rit.edu/cblwang/). My research focuses on building **reliable deep generative models**: improving their robustness and controllability, particularly for cases underrepresented in the training data.
 
 My current work explores these themes in computer vision:
 
 - **Robustness to attribute correlations.** I study how attribute correlations in training data make it difficult for generative models to produce images with underrepresented attribute combinations, and explore approaches to addressing this challenge.
-- **Controllable and counterfactual generation.** Going a step further, I develop causal generative models that account for relationships between attributes to improve controllable and counterfactual generation accuracy under varying strengths of these relationships.
+- **Controllable and counterfactual generation.** Going a step further, I develop causal generative models that account for relationships between attributes to improve controllable and counterfactual generation under varying strengths of these relationships.
 
 <div class="availability-note">
-  I am seeking full-time <strong>Applied Scientist or Research Scientist</strong> roles in machine learning, with interests spanning generative AI and trustworthy ML. Please feel free to <a href="mailto:rs9466@rit.edu">get in touch</a>.
+  I am seeking full-time **Applied Scientist** or **Research Scientist** roles in machine learning, with interests spanning generative AI and trustworthy ML, starting summer 2027. Please feel free to <a href="mailto:rs9466@rit.edu">get in touch</a>.
 </div>
 
 
