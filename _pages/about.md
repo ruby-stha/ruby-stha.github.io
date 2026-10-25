@@ -47,7 +47,8 @@ My current work explores these themes in computer vision, investigating how corr
       class="research-image"
       src="{{ '/images/proregen.png' | relative_url }}"
       alt="ProReGen method: recasting correlated attribute conditioning through residualization and two-stage learning."
-      loading="lazy">
+      loading="lazy"
+      style="width: 70%; height: auto; margin: 20px auto 24px;">
   </a>
 
   <p>
