@@ -363,8 +363,7 @@ author_profile: true
     </p>
 
     <p class="pub-description">
-      A machine-learning pipeline for denoising (with VAE) and clustering (with Self-Organizing Map) individual
-      pulsar pulses supports analysis of the 2024 Vela glitch and other pulsars.
+      A machine-learning pipeline--Isolation Forest outlier rejection, β-Variational-AutoEncoder denoising, and Self-Organizing-Map clustering--for individual pulsar pulses supports analysis of the 2024 Vela glitch and other pulsars.
     </p>
 
     <div class="pub-actions">
