@@ -35,7 +35,7 @@ updates:
   year: 2025
   date: Nov 2025
   text: 'Gave a guest lecture on *Robustness of Deep Learning Models to Observed Attribute Correlations: Exploring Impact
-    and Potential Solution* for **CISC-865 Deep Learning** at RIT.'
+    and Potential Solution* in **CISC-865 Deep Learning** course at RIT.'
 - section: '2024'
   year: 2024
   date: Oct 2024
@@ -43,7 +43,7 @@ updates:
 - section: '2023'
   year: 2023
   date: Oct 2023
-  text: 'Our equal-contribution paper, [Distributionally Robust Optimization and Invariant Representation Learning for Addressing
+  text: 'Our paper, [Distributionally Robust Optimization and Invariant Representation Learning for Addressing
     Subgroup Underrepresentation: Mechanisms and Limitations](https://arxiv.org/abs/2308.06434), was published at **FAIMI,
     MICCAI 2023**.'
 - section: '2023'
