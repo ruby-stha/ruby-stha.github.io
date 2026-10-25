@@ -39,8 +39,7 @@ updates:
 - section: '2024'
   year: 2024
   date: Oct 2024
-  text: Gave a talk on *Spurious Correlations and Bias in AI Systems* to clinical and behavioral health psychology interns
-    at RIT.
+  text: Gave a talk on *Spurious Correlations and Bias in AI Systems* at a seminar for clinical and behavioral health health psychology interns at RIT.
 - section: '2023'
   year: 2023
   date: Oct 2023
