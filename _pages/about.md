@@ -36,7 +36,7 @@ My current work explores these themes in computer vision, investigating how corr
       src="{{ '/images/proregen.png' | relative_url }}"
       alt="ProReGen method: recasting correlated attribute conditioning through residualization and two-stage learning."
       loading="lazy"
-      style="display: block; width: 100%; height: auto; margin: 16px 0 20px;">
+      style="display: block; width: 75%; height: auto; margin: 16px 0 20px;">
   </a>
   <p>
     Correlations among attributes in training data can cause generative
