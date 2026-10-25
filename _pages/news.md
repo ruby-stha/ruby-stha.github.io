@@ -59,16 +59,15 @@ updates:
   date: Aug 2022
   text: Started my **PhD in Computing and Information Sciences at RIT**, joining the [Computational Biomedicine Lab](https://www.rit.edu/cblwang/directory)
     under the supervision of Prof. Linwei Wang.
-- section: Earlier Highlights
+- section: Earlier Updates
   year: 2019
   date: Sep 2019
   text: Received the **National Female Education Award** from the Government of Nepal.
-- section: Earlier Highlights
+- section: Earlier Updates
   year: 2018
   date: Aug 2018
-  text: 'Gave an oral presentation on *Maze Solving with Anomaly Tolerant Dead End Filling and A*: Implementation and Analysis*
-    at the **Fifth International Conference on Information Technology for Development (IT4D)**.'
-- section: Earlier Highlights
+  text: 'Gave an oral presentation on *Maze Solving with Anomaly Tolerant Dead End Filling and A*: Implementation and Analysis* at the **Fifth International Conference on Information Technology for Development (IT4D)**.'
+- section: Earlier Updates
   year: 2018
   date: Apr 2018
   text: Graduated with a **Bachelor’s degree in Computer Science and Information Technology** from Tribhuvan University.
