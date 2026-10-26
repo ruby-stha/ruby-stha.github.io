@@ -146,7 +146,7 @@ My current work explores these themes in computer vision:
   </p>
 
   <p class="industry-description">
-    Contributed to and led projects in healthcare reporting and data visualization. Progressed from Software Engineering Intern to Software Engineer, Team Lead, Senior Software Engineer and Development Manager.
+    Contributed to and led projects in US healthcare data analytics, reporting, and visualization. Progressed from Software Engineering Intern to Software Engineer, Team Lead, and Development Manager.
   </p>
 </div>
 
