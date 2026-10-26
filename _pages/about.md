@@ -7,12 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a final-year PhD candidate in Computing and Information Sciences at Rochester Institute of Technology, advised by [Prof. Linwei Wang](https://www.rit.edu/cblwang/linwei-wang) in the [Computational Biomedicine Lab](https://www.rit.edu/cblwang/directory). My research focuses on building **reliable deep generative models**: improving their robustness and controllability, particularly for cases underrepresented in the training data.
+<p style="margin-top: 0; color: #607481; font-size: 0.9em; font-weight: 600;">
+  Generative AI &nbsp;·&nbsp; Causal ML &nbsp;·&nbsp; Trustworthy ML
+</p>
+
+I am a final-year PhD candidate in Computing and Information Sciences at Rochester Institute of Technology, advised by [Prof. Linwei Wang](https://www.rit.edu/cblwang/linwei-wang) in the [Computational Biomedicine Lab](https://www.rit.edu/cblwang/directory). My research focuses on building **reliable deep generative models**: improving their robustness and controllability.
 
 My current work explores these themes in computer vision:
 
-- **Robustness to attribute correlations.** I study how attribute correlations in training data make it difficult for generative models to produce images with underrepresented attribute combinations, and explore approaches to addressing this challenge.
-- **Controllable and counterfactual generation.** I develop causal generative models that account for relationships between attributes to improve controllable and counterfactual generation under varying strengths of these relationships.
+- **Robustness to attribute correlations.** I study how attribute correlations in training data make it difficult for generative models to produce images with underrepresented attribute combinations, and explore and develop approaches to addressing this challenge.
+- **Controllable and counterfactual generation.** I develop causal generative models that account for relationships between attributes to improve controllable and counterfactual generation across varying strengths of these relationships.
 
 <div class="availability-note">
   I am seeking full-time <strong>Applied Scientist</strong> or
