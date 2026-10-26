@@ -205,8 +205,7 @@ author_profile: true
     </p>
 
     <p class="pub-description">
-      Progressive residual learning improves the generation of underrepresented
-      attribute combinations across VAEs, GANs, and diffusion models.
+      Proposes a progressive residual learning approach that improves the generation of underrepresented attribute combinations across VAEs, GANs, and diffusion models.
     </p>
 
     <div class="pub-actions">
@@ -256,7 +255,7 @@ author_profile: true
     </p>
 
     <p class="pub-description">
-      Difficulty-aware task sampling improves the accuracy of meta-learned physics-informed neural networks.
+      Introduces a difficulty-aware task sampler that improves the accuracy of meta-learned physics-informed neural networks.
     </p>
 
     <div class="pub-actions">
@@ -310,7 +309,7 @@ author_profile: true
 
     <p class="pub-description">
       Examines the limitations of robust optimization and invariant learning,
-      then combines them to reduce subgroup disparities in medical image
+      then introduces an approach that combines them to reduce subgroup disparities in medical image
       classification.
     </p>
 
@@ -363,7 +362,7 @@ author_profile: true
     </p>
 
     <p class="pub-description">
-      A machine-learning pipeline--Isolation Forest outlier rejection, β-Variational-AutoEncoder denoising, and Self-Organizing-Map clustering--for individual pulsar pulses supports analysis of the 2024 Vela glitch and other pulsars.
+      Presents a machine-learning pipeline with Isolation Forest outlier rejection, β-VAE denoising, and Self-Organizing-Map clustering for individual pulsar pulses to support analysis of the 2024 Vela glitch and other pulsars.
     </p>
 
     <div class="pub-actions">
