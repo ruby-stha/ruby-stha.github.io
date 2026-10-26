@@ -126,13 +126,13 @@ My current work explores these themes in computer vision:
 <div class="industry-entry">
   <div class="industry-topline">
     <h3 class="industry-company">
-      Deerwalk Inc. / Cedar Gate Technologies
+      Deerwalk Inc. (now a Cedar Gate Technologies Company)
     </h3>
     <span class="industry-dates">2015–2021</span>
   </div>
 
   <p class="industry-roles">
-    Software Engineering &nbsp;·&nbsp; Data Analytics &nbsp;·&nbsp; Team Leadership
+    Software Engineering &nbsp;·&nbsp; Healthcare Analytics &nbsp;·&nbsp; Team Leadership
   </p>
 
   <p class="industry-description">
