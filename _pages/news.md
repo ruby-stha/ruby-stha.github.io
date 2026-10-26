@@ -73,7 +73,7 @@ updates:
 - section: Earlier Updates
   year: 2016
   date: Apr 2016
-  text: Won the **International Girls in ICT Day Hackathon**.
+  text: Winner, **International Girls in ICT Day Hackathon**.
 ---
 
 <style>
