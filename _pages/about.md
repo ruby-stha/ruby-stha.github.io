@@ -15,7 +15,7 @@ My current work explores these themes in computer vision:
 - **Controllable and counterfactual generation.** I develop causal generative models that account for relationships between attributes to improve controllable and counterfactual generation under varying strengths of these relationships.
 
 <div class="availability-note">
-  I am seeking full-time <strong>Applied Scientist</strong> or <strong>Research Scientist</strong> roles in machine learning, with interests spanning generative AI and trustworthy ML, starting summer 2027. Please feel free to get in touch at <strong>rs9466[at]rit[dot]edu</strong>.
+  I am seeking full-time <strong>Applied Scientist</strong> or <strong>Research Scientist</strong> roles in machine learning, with interests spanning generative AI and trustworthy ML, starting summer 2027. Please feel free to get in touch at <strong>rs9466 [at] rit [dot] edu</strong>.
 </div>
 
 
