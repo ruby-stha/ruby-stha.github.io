@@ -71,7 +71,7 @@ My current work explores these themes in computer vision:
     residualization and progressive learning: it first learns from
     abundant, correlation-aligned samples, then uses limited
     correlation-conflicting samples to learn residual information.
-    The framework improves attribute correctness for underrepresented
+    The framework improves effectiveness of generations for underrepresented
     combinations across VAEs, GANs, and diffusion models.
   </p>
 
