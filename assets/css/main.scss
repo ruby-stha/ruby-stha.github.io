@@ -42,12 +42,62 @@
 @import "print";
 
 
-/* Keep the theme's existing horizontal menu */
+/* Center the desktop layout and align navigation */
+@media (min-width: 1024px) {
+
+  #main,
+  .masthead__inner-wrap {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  /* Sidebar and content */
+  #main {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    column-gap: 40px;
+    align-items: start;
+  }
+
+  #main::before,
+  #main::after {
+    display: none;
+  }
+
+  #main > .sidebar {
+    position: sticky;
+    top: 90px;
+    float: none;
+    clear: none;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    max-height: calc(100vh - 110px);
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+  }
+
+  /* Remove the theme's reserved space on the right */
+  #main > .page {
+    float: none;
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Preserve the existing horizontal navigation */
   .masthead .greedy-nav .visible-links {
     display: table;
   }
 
-  /* Home occupies the sidebar width + gap */
+  /* Match the 220px sidebar plus the 40px gap */
   .masthead .greedy-nav .visible-links > li:first-child {
     box-sizing: border-box;
     width: 260px;
@@ -60,7 +110,8 @@
     margin-right: 0;
   }
 
-  /* Align Publications with About Me */
+  /* Publications starts directly above About Me */
   .masthead .greedy-nav .visible-links > li:nth-child(2) > a {
     margin-left: 0;
   }
+}
