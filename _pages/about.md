@@ -75,6 +75,7 @@ redirect_from:
 
   .ruby-home .home-section-heading > a {
     font-size: 0.8em;
+    font-weight: 700;
     white-space: nowrap;
   }
 
@@ -157,7 +158,7 @@ redirect_from:
     justify-content: space-between;
     align-items: baseline;
     gap: 6px 20px;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
   }
 
   .ruby-home .home-industry-company {
@@ -171,6 +172,13 @@ redirect_from:
     color: var(--home-muted);
     font-size: 0.82em;
     white-space: nowrap;
+  }
+
+  .ruby-home .home-industry-roles {
+    margin: 6px 0 12px;
+    color: var(--home-muted);
+    font-size: 0.85em;
+    line-height: 1.6;
   }
 
   .ruby-home .home-industry-description {
@@ -320,7 +328,7 @@ redirect_from:
       <p class="home-project-description">
         Can generative models reliably produce attribute combinations
         underrepresented in their training data? Designing a multi-metric
-        evaluation framework, we evaluate 13+ generative
+        evaluation framework, we systematically evaluate 13+ generative
         models and mitigation strategies across synthetic, natural,
         and medical datasets under increasing feature correlation.
         With this, we identify root causes of failure: covariate shift,
@@ -394,6 +402,9 @@ redirect_from:
 
     <div class="home-section-heading">
       <h2 id="industry-experience">Industry Experience</h2>
+      <a href="{{ '/cv/' | relative_url }}">
+        Details in CV &rarr;
+      </a>
     </div>
 
     <div class="home-industry">
@@ -404,9 +415,14 @@ redirect_from:
         <span class="home-industry-dates">2015–2021</span>
       </div>
 
+      <p class="home-industry-roles">
+        Healthcare Analytics &nbsp;·&nbsp; Software Engineering
+        &nbsp;·&nbsp; Team Leadership
+      </p>
+
       <p class="home-industry-description">
         Led projects in US healthcare data analytics, reporting,
-        and visualization, progressing from Software Engineering Intern
+        and visualization. Progressed from Software Engineering Intern
         to Software Engineer, Team Lead, and Development Manager.
       </p>
     </div>
@@ -425,7 +441,7 @@ redirect_from:
       </a>
     </div>
 
-    {% for item in homepage_updates limit: 4 %}
+    {% for item in homepage_updates %}
       <div class="home-news-row">
         <span class="home-news-date">
           {{ item.date | escape }}
