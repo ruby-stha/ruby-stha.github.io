@@ -85,14 +85,17 @@
     overflow-y: auto;
   }
 
-  /* Remove the theme's reserved right-hand space */
-  #main > .page {
+    /* Fill the content column for both page layouts */
+    #main > .page,
+    #main > .archive {
+    box-sizing: border-box;
     float: none;
     width: 100%;
+    max-width: none;
     min-width: 0;
     margin: 0;
     padding: 0;
-  }
+    }
 
   /* Preserve the horizontal navigation */
   .masthead .greedy-nav .visible-links {
@@ -116,4 +119,11 @@
   .masthead .greedy-nav .visible-links > li:nth-child(2) > a {
     margin-left: 0;
   }
+}
+
+/* Let the CV viewer fill its available content width */
+#main > .archive > embed[type="application/pdf"] {
+  display: block;
+  width: 100%;
+  max-width: 100%;
 }
