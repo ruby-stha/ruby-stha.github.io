@@ -254,8 +254,8 @@ redirect_from:
   @media (min-width: 768px) {
     .ruby-home .home-project-description,
     .ruby-home .home-industry-description {
-      text-align: justify;
-      hyphens: auto;
+      text-align: left;
+      hyphens: none;
     }
   }
 
