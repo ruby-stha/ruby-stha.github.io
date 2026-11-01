@@ -320,7 +320,7 @@ redirect_from:
       <p class="home-project-description">
         Can generative models reliably produce attribute combinations
         underrepresented in their training data? Designing a multi-metric
-        evaluation framework, we systematically evaluate 13+ generative
+        evaluation framework, we evaluate 13+ generative
         models and mitigation strategies across synthetic, natural,
         and medical datasets under increasing feature correlation.
         With this, we identify root causes of failure: covariate shift,
