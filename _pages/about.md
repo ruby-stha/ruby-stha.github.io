@@ -13,10 +13,11 @@ redirect_from:
 
 I am a final-year PhD candidate in Computing and Information Sciences at Rochester Institute of Technology, advised by [Prof. Linwei Wang](https://www.rit.edu/cblwang/linwei-wang) in the [Computational Biomedicine Lab](https://www.rit.edu/cblwang/directory). My research focuses on building **reliable deep generative models**: improving their robustness and controllability.
 
-My current work explores these themes considering image datasets:
+My current work explores these themes in image generation:
 
-- **Robustness to attribute correlations.** I study how attribute correlations in training data make it difficult for generative models to produce images with underrepresented attribute combinations, and explore and develop approaches to addressing this challenge.
-- **Controllable and counterfactual generation.** I develop causal generative models that account for relationships between attributes to improve controllable and counterfactual generation across varying strengths of these relationships.
+- **Robustness to attribute correlations.** I study how attribute correlations in training data limit generative models’ generalization to underrepresented attribute combinations, and develop approaches to address this challenge.
+
+- **Controllable and counterfactual generation.** I develop causal generative models that account for relationships between attributes, aiming for accurate controllable and counterfactual generation even when attributes are strongly related.
 
 <div class="availability-note">
   I am seeking full-time <strong>Applied Scientist</strong> or
@@ -64,16 +65,7 @@ My current work explores these themes considering image datasets:
       loading="lazy">
   </a>
 
-  <p>
-    Correlations among attributes in training data can cause generative
-    models to struggle with requested combinations that conflict with
-    those correlations. ProReGen addresses this through attribute
-    residualization and progressive learning: it first learns from
-    abundant, correlation-aligned samples, then uses limited
-    correlation-conflicting samples to learn residual information.
-    The framework improves effectiveness of generations for underrepresented
-    combinations across VAEs, GANs, and diffusion models.
-  </p>
+  <p> Correlations among attributes in training data can cause generative models to fail on requested attribute combinations that go against those correlations. Inspired by the classical Robinson’s partialling-out transformation, ProReGen splits a correlated attribute into the part predictable from other attributes and a residual that is not, turning correlated conditioning inputs into orthogonal ones. It then learns progressively: first from abundant correlation-aligned samples, then from limited correlation-conflicting samples, which only need to teach the model the residual. As a model-agnostic framework, ProReGen applies to VAEs, GANs, and diffusion models, improving the attribute correctness of generations for underrepresented combinations with limited impact on image quality. </p>
 
   <div class="research-actions">
     <a href="https://openreview.net/pdf?id=2LzYaW032Q">
