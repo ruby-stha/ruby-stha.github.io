@@ -137,13 +137,41 @@ redirect_from:
     line-height: 1.75;
   }
 
+  /* Paper, Code, and Poster buttons */
+
   .ruby-home .home-project-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px 20px;
-    margin-top: 15px;
+    gap: 10px;
+    margin-top: 18px;
     font-size: 0.84em;
+  }
+
+  .ruby-home .home-project-links a {
+    display: inline-block;
+    padding: 7px 17px;
+    border: 1px solid #c5e0eb;
+    border-radius: 6px;
+    background: #eaf5fb;
+    color: #285f78;
+    font-size: 0.95em;
     font-weight: 600;
+    line-height: 1.4;
+    text-decoration: none;
+    transition:
+      background-color 0.15s ease,
+      border-color 0.15s ease;
+  }
+
+  .ruby-home .home-project-links a:hover {
+    background: #d8edf7;
+    border-color: #9fcbdc;
+    text-decoration: none;
+  }
+
+  .ruby-home .home-project-links a:focus-visible {
+    outline: 2px solid #285f78;
+    outline-offset: 3px;
   }
 
   /* Industry experience */
@@ -187,7 +215,7 @@ redirect_from:
     line-height: 1.75;
   }
 
-  /* News preview */
+  /* Latest Updates */
 
   .ruby-home .home-news-row {
     display: grid;
@@ -219,6 +247,85 @@ redirect_from:
 
   .ruby-home .home-news-copy p + p {
     margin-top: 8px;
+  }
+
+  /* Justify longer descriptions on larger screens */
+
+  @media (min-width: 768px) {
+    .ruby-home .home-project-description,
+    .ruby-home .home-industry-description {
+      text-align: justify;
+      hyphens: auto;
+    }
+  }
+
+  /* Balanced desktop spacing and navigation alignment */
+
+  @media (min-width: 1024px) {
+    #main,
+    .masthead__inner-wrap {
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 1180px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+
+    #main {
+      display: grid;
+      grid-template-columns: 220px minmax(0, 1fr);
+      column-gap: 40px;
+      align-items: start;
+    }
+
+    #main::before,
+    #main::after {
+      display: none;
+    }
+
+    #main > .sidebar {
+      position: sticky;
+      top: 90px;
+      float: none;
+      clear: none;
+      width: 100%;
+      max-width: none;
+      height: auto;
+      max-height: calc(100vh - 110px);
+      margin: 0;
+      padding: 0;
+      overflow-y: auto;
+    }
+
+    #main > .page {
+      float: none;
+      width: 100%;
+      min-width: 0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .masthead .greedy-nav .visible-links {
+      display: table;
+    }
+
+    .masthead .greedy-nav .visible-links > li:first-child {
+      box-sizing: border-box;
+      width: 260px;
+      min-width: 260px;
+      padding: 0;
+    }
+
+    .masthead .greedy-nav .visible-links > li:first-child > a {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .masthead .greedy-nav .visible-links > li:nth-child(2) > a {
+      margin-left: 0;
+    }
   }
 
   /* Mobile layout */
