@@ -266,7 +266,7 @@ redirect_from:
     .masthead__inner-wrap {
       box-sizing: border-box;
       width: 100%;
-      max-width: 1000px;
+      max-width: 1050px;
       margin-left: auto;
       margin-right: auto;
       padding-left: 32px;
