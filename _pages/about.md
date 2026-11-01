@@ -16,7 +16,6 @@ I am a final-year PhD candidate in Computing and Information Sciences at Rochest
 My current work explores these themes in image generation:
 
 - **Robustness to attribute correlations.** I study how attribute correlations in training data limit generative models’ generalization to underrepresented attribute combinations, and develop approaches to address this challenge.
-
 - **Controllable and counterfactual generation.** I develop causal generative models that account for relationships between attributes, aiming for accurate controllable and counterfactual generation even when attributes are strongly related.
 
 <div class="availability-note">
