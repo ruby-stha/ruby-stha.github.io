@@ -42,6 +42,55 @@ My current work explores these themes in image generation:
   </a>
 </div>
 
+
+<div class="research-project">
+
+  <h3>
+    Re-Examining the Impact of Observed Feature Correlations
+    on Minority Image Generation
+  </h3>
+
+  <p class="research-authors">
+    <!-- Add the author list here. -->
+    <!-- Format your name as: <strong>Ruby Shrestha</strong> -->
+    <br>
+    <strong>Under review</strong>
+  </p>
+
+  <!-- Replace the image filename below with your uploaded figure. -->
+  <img
+    class="research-image"
+    src="{{ '/images/minority-generation.png' | relative_url }}"
+    alt="Overview of the evaluation framework for minority image generation under observed feature correlations."
+    loading="lazy">
+
+  <p>
+    Can generative models reliably produce attribute combinations
+    underrepresented in their training data? We investigate this question
+    through a systematic evaluation of more than 13 generative models
+    and mitigation strategies spanning explainable AI, causal modeling,
+    and data augmentation, assessing how well they generalize to minority
+    images across synthetic, natural, and medical datasets under increasing
+    feature correlation. Designing a multi-metric evaluation framework,
+    we identify root causes of failure: covariate shift, limited minority
+    sample diversity, mismatched inductive bias, and biased classifier
+    supervision, as well as develop a theoretical perspective on observed
+    failures by drawing an analogy between minority image generation
+    and potential outcome estimation in causal inference. With these,
+    we highlight the need to explicitly address feature correlation
+    when training generative models and point to promising directions
+    for improving minority image generation.
+  </p>
+
+  <div class="research-actions">
+    <!-- Uncomment and replace the placeholders when links are available.
+    <a href="PAPER_URL">Paper</a>
+    <a href="CODE_URL">Code</a>
+    -->
+  </div>
+
+</div>
+
 <div class="research-project">
 
   <h3>
