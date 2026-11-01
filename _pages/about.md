@@ -12,7 +12,7 @@ redirect_from:
     --home-muted: #607481;
     --home-border: #e5eaed;
     --home-accent: #529caa;
-    font-size: 0.90em;
+    font-size: 0.92em;
   }
 
   .ruby-home .home-keywords {
@@ -35,7 +35,7 @@ redirect_from:
     margin-bottom: 12px;
   }
 
-  /* Availability notice */
+  /* Availability */
 
   .ruby-home .home-availability {
     margin: 24px 0 34px;
@@ -80,7 +80,7 @@ redirect_from:
     white-space: nowrap;
   }
 
-  /* Research entries */
+  /* Research */
 
   .ruby-home .home-project {
     padding: 26px 0 30px;
@@ -136,9 +136,11 @@ redirect_from:
     margin: 0;
     font-size: 0.94em;
     line-height: 1.75;
+    text-align: left;
+    hyphens: none;
   }
 
-  /* Paper, Code, and Poster buttons */
+  /* Research buttons */
 
   .ruby-home .home-project-links {
     display: flex;
@@ -214,6 +216,8 @@ redirect_from:
     margin: 0;
     font-size: 0.94em;
     line-height: 1.75;
+    text-align: left;
+    hyphens: none;
   }
 
   /* Latest Updates */
@@ -250,86 +254,7 @@ redirect_from:
     margin-top: 8px;
   }
 
-  /* Justify longer descriptions on larger screens */
-
-  @media (min-width: 768px) {
-    .ruby-home .home-project-description,
-    .ruby-home .home-industry-description {
-      text-align: left;
-      hyphens: none;
-    }
-  }
-
-  /* Balanced desktop spacing and navigation alignment */
-
-  @media (min-width: 1024px) {
-    #main,
-    .masthead__inner-wrap {
-      box-sizing: border-box;
-      width: 100%;
-      max-width: 1050px;
-      margin-left: auto;
-      margin-right: auto;
-      padding-left: 32px;
-      padding-right: 32px;
-    }
-
-    #main {
-      display: grid;
-      grid-template-columns: 220px minmax(0, 1fr);
-      column-gap: 40px;
-      align-items: start;
-    }
-
-    #main::before,
-    #main::after {
-      display: none;
-    }
-
-    #main > .sidebar {
-      position: sticky;
-      top: 90px;
-      float: none;
-      clear: none;
-      width: 100%;
-      max-width: none;
-      height: auto;
-      max-height: calc(100vh - 110px);
-      margin: 0;
-      padding: 0;
-      overflow-y: auto;
-    }
-
-    #main > .page {
-      float: none;
-      width: 100%;
-      min-width: 0;
-      margin: 0;
-      padding: 0;
-    }
-
-    .masthead .greedy-nav .visible-links {
-      display: table;
-    }
-
-    .masthead .greedy-nav .visible-links > li:first-child {
-      box-sizing: border-box;
-      width: 260px;
-      min-width: 260px;
-      padding: 0;
-    }
-
-    .masthead .greedy-nav .visible-links > li:first-child > a {
-      margin-left: 0;
-      margin-right: 0;
-    }
-
-    .masthead .greedy-nav .visible-links > li:nth-child(2) > a {
-      margin-left: 0;
-    }
-  }
-
-  /* Mobile layout */
+  /* Mobile */
 
   @media (max-width: 600px) {
     .ruby-home .home-section-heading {

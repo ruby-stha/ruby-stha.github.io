@@ -1,0 +1,218 @@
+---
+permalink: /
+title: "About Me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+<p style="margin-top: 0; color: #607481; font-size: 0.9em; font-weight: 600;">
+  Generative AI &nbsp;·&nbsp; Causal ML &nbsp;·&nbsp; Trustworthy ML
+</p>
+
+I am a final-year PhD candidate in Computing and Information Sciences at Rochester Institute of Technology, advised by [Prof. Linwei Wang](https://www.rit.edu/cblwang/linwei-wang) in the [Computational Biomedicine Lab](https://www.rit.edu/cblwang/directory). My research focuses on building **reliable deep generative models**: improving their robustness and controllability.
+
+My current work explores these themes in image generation:
+
+- **Robustness to attribute correlations.** I study how attribute correlations in training data limit generative models’ generalization to underrepresented attribute combinations, and develop approaches to address this challenge.
+- **Controllable and counterfactual generation.** I develop robust causal generative models that account for relationships between attributes, aiming for accurate controllable and counterfactual generation even when attributes are strongly related.
+
+<div class="availability-note">
+  I am seeking full-time <strong>Applied Scientist</strong> or
+  <strong>Research Scientist</strong> roles in machine learning,
+  with interests spanning generative AI and trustworthy ML,
+  starting summer 2027.
+  Please feel free to get in touch at
+  <strong>rs9466 [at] rit [dot] edu</strong>.
+
+  <a href="{{ '/cv/' | relative_url }}"
+     style="display: inline-block; margin-left: 8px; font-weight: 600;">
+    View CV &rarr;
+  </a>
+</div>
+
+
+<div class="research-header">
+  <h2 id="selected-research">Selected Recent Research</h2>
+  <a
+    class="all-publications"
+    href="{{ '/publications/' | relative_url }}">
+    View all publications &rarr;
+  </a>
+</div>
+
+
+<div class="research-project">
+
+  <h3>
+    Re-Examining the Impact of Observed Feature Correlations
+    on Minority Image Generation
+  </h3>
+
+  <p class="research-authors">
+    <!-- Add the author list here. -->
+    <!-- Format your name as: <strong>Ruby Shrestha</strong> -->
+    <br>
+    <strong>Under review</strong>
+  </p>
+
+  <!-- Replace the image filename below with your uploaded figure. -->
+  <img
+    class="research-image"
+    src="{{ '/images/minority-generation.png' | relative_url }}"
+    alt="Overview of the evaluation framework for minority image generation under observed feature correlations."
+    loading="lazy">
+
+  <p>
+    Can generative models reliably produce attribute combinations
+    underrepresented in their training data? We investigate this question
+    through a systematic evaluation of more than 13 generative models
+    and mitigation strategies spanning explainable AI, causal modeling,
+    and data augmentation, assessing how well they generalize to minority
+    images across synthetic, natural, and medical datasets under increasing
+    feature correlation. Designing a multi-metric evaluation framework,
+    we identify root causes of failure: covariate shift, limited minority
+    sample diversity, mismatched inductive bias, and biased classifier
+    supervision, as well as develop a theoretical perspective on observed
+    failures by drawing an analogy between minority image generation
+    and potential outcome estimation in causal inference. With these,
+    we highlight the need to explicitly address feature correlation
+    when training generative models and point to promising directions
+    for improving minority image generation.
+  </p>
+
+  <div class="research-actions">
+    <!-- Uncomment and replace the placeholders when links are available.
+    <a href="PAPER_URL">Paper</a>
+    <a href="CODE_URL">Code</a>
+    -->
+  </div>
+
+</div>
+
+<div class="research-project">
+
+  <h3>
+    <a href="https://openreview.net/pdf?id=2LzYaW032Q">
+      ProReGen: Progressive Residual Generation under Attribute Correlations
+    </a>
+  </h3>
+
+  <p class="research-authors">
+    <strong>Ruby Shrestha</strong>, Ajay Gopi, Casey Meisenzahl,
+    Bipin Lekhak, Linwei Wang<br>
+    <strong>ICLR 2026</strong>
+  </p>
+
+  <a href="https://openreview.net/pdf?id=2LzYaW032Q">
+    <img
+      class="research-image"
+      src="{{ '/images/proregen.png' | relative_url }}"
+      alt="ProReGen method: recasting correlated attribute conditioning through residualization and two-stage learning."
+      loading="lazy">
+  </a>
+
+  <p> Correlations among attributes in training data can cause generative models to fail on requested attribute combinations that go against those correlations. Inspired by the classical Robinson’s partialling-out transformation from causal inference, ProReGen splits a correlated attribute into the part predictable from other attributes and a residual that is not, turning correlated conditioning inputs into orthogonal ones. It then learns progressively: first from abundant correlation-aligned samples, then from limited correlation-conflicting samples, which only need to teach the model the residual. As a model-agnostic framework, ProReGen applies to VAEs, GANs, and diffusion models, improving the correctness of generations for underrepresented attribute combinations without degrading those for common ones. </p>
+
+  <div class="research-actions">
+    <a href="https://openreview.net/pdf?id=2LzYaW032Q">
+      Paper
+    </a>
+    <a href="https://github.com/ruby-stha/ProReGen_ICLR2026">
+      Code
+    </a>
+    <a href="https://iclr.cc/media/PosterPDFs/ICLR%202026/10011751.png?t=1775575313.3895278">
+      Poster
+    </a>
+  </div>
+
+</div>
+
+
+<style>
+  .industry-entry {
+    margin: 20px 0 32px;
+  }
+
+  .industry-topline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 6px 20px;
+  }
+
+  .industry-entry .industry-company {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  .industry-dates {
+    color: #607481;
+    font-size: 0.85em;
+    white-space: nowrap;
+  }
+
+  .industry-entry .industry-roles {
+    margin: 6px 0 12px;
+    color: #607481;
+    font-size: 0.85em;
+    line-height: 1.6;
+  }
+
+  .industry-entry .industry-description {
+    margin: 0;
+    line-height: 1.65;
+  }
+</style>
+
+<div class="research-header">
+  <h2 id="industry-experience">Industry Experience</h2>
+  <a
+    class="all-publications"
+    href="{{ '/cv/' | relative_url }}">
+    Details in CV &rarr;
+  </a>
+</div>
+
+<div class="industry-entry">
+  <div class="industry-topline">
+    <h3 class="industry-company">
+      Deerwalk Inc. (now a Cedar Gate Technologies Company)
+    </h3>
+    <span class="industry-dates">2015–2021</span>
+  </div>
+
+  <p class="industry-roles">
+    Healthcare Analytics &nbsp;·&nbsp; Software Engineering &nbsp;·&nbsp; Team Leadership
+  </p>
+
+  <p class="industry-description">
+    Led projects in US healthcare data analytics, reporting, and visualization. Progressed from Software Engineering Intern to Software Engineer, Team Lead, and Development Manager.
+  </p>
+</div>
+
+<!-- ## Education
+
+<img src="https://academicpages.github.io/images/favicon.ico" alt="Alt text" width="20" height="20">  PhD in Computing & Information Sciences<br>
+<span class="university"> &nbsp; &nbsp; &nbsp; Rochester Institute of Technology</span><br><br>
+<img src="https://academicpages.github.io/images/favicon.ico" alt="Alt text" width="20" height="20">  Bachelor in Computer Science & Information Technology, 2017<br>
+<span class="university">&nbsp; &nbsp; &nbsp; Tribhuvan University, Nepal</span> -->
+
+{% assign full_news = site.pages | where: "permalink", "/news/" | first %}
+{% assign homepage_updates = full_news.updates | where: "year", 2026 %}
+
+<section class="ruby-updates" aria-labelledby="latest-updates">
+  <div class="updates-header">
+    <h2 id="latest-updates">Latest Updates</h2>
+    <a class="updates-all" href="{{ '/news/' | relative_url }}">View all news &rarr;</a>
+  </div>
+  {% for item in homepage_updates %}
+    <div class="update-row">
+      <span class="update-date">{{ item.date | escape }}</span>
+      <div class="update-copy">{{ item.text | markdownify }}</div>
+    </div>
+  {% endfor %}
+</section>

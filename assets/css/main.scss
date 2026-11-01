@@ -42,11 +42,12 @@
 @import "print";
 
 
-/* Center the desktop layout and align navigation */
-@media (min-width: 1024px) {
+/* Shared desktop layout */
+@media screen and (min-width: 1024px) {
 
-    #main,
-    .masthead__inner-wrap {
+  /* Matching centered containers */
+  #main,
+  .masthead__inner-wrap {
     box-sizing: border-box;
     width: 100%;
     max-width: 1180px;
@@ -54,9 +55,9 @@
     margin-right: auto;
     padding-left: 32px;
     padding-right: 32px;
-    }
+  }
 
-  /* Sidebar and content */
+  /* Sidebar and main content */
   #main {
     display: grid;
     grid-template-columns: 220px minmax(0, 1fr);
@@ -69,6 +70,7 @@
     display: none;
   }
 
+  /* Sidebar stays within its column */
   #main > .sidebar {
     position: sticky;
     top: 90px;
@@ -83,7 +85,7 @@
     overflow-y: auto;
   }
 
-  /* Remove the theme's reserved space on the right */
+  /* Remove the theme's reserved right-hand space */
   #main > .page {
     float: none;
     width: 100%;
@@ -92,12 +94,12 @@
     padding: 0;
   }
 
-  /* Preserve the existing horizontal navigation */
+  /* Preserve the horizontal navigation */
   .masthead .greedy-nav .visible-links {
     display: table;
   }
 
-  /* Match the 220px sidebar plus the 40px gap */
+  /* Home matches the sidebar width plus the gap */
   .masthead .greedy-nav .visible-links > li:first-child {
     box-sizing: border-box;
     width: 260px;
@@ -110,7 +112,7 @@
     margin-right: 0;
   }
 
-  /* Publications starts directly above About Me */
+  /* Publications aligns with the main page heading */
   .masthead .greedy-nav .visible-links > li:nth-child(2) > a {
     margin-left: 0;
   }
