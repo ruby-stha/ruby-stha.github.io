@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Ruby Shrestha"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Ruby Shrestha"
 description              : &description "PhD Student at RIT"
@@ -20,15 +20,15 @@ repository               : "ruby-stha/ruby-stha.github.io.git"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
-  avatar           : "profile.png"
-  name             : "Ruby Shrestha"
-  pronouns         : #"she/her"  
-  bio              : "Computing & Information Sciences\nPhD Candidate"
-  location         : "Rochester, New York"
-  employer         : "Rochester Institute of Technology"
-  uri              : # URL
-  email            : "rs9466@rit.edu" 
+  name: "Ruby Shrestha"
+  avatar: "profile.png"
+  bio: "PhD Candidate · Computing & Information Sciences"
+  location: "Rochester, New York"
+  employer: "RIT"
+  email: "rs9466@rit.edu"
+  googlescholar: "https://scholar.google.com/citations?user=JcG1vjIAAAAJ&hl=en"
+  github: "ruby-stha"
+  linkedin: "ruby--shrestha"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
