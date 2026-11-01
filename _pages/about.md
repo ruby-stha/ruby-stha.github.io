@@ -12,6 +12,7 @@ redirect_from:
     --home-muted: #607481;
     --home-border: #e5eaed;
     --home-accent: #529caa;
+    font-size: 0.95em;
   }
 
   .ruby-home .home-keywords {
