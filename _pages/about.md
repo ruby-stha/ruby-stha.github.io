@@ -333,7 +333,7 @@ redirect_from:
       </a>
     </div>
 
-    <article class="home-project">
+    <!-- <article class="home-project">
 
       <h3>
         Re-Examining the Impact of Observed Feature Correlations
@@ -372,7 +372,7 @@ redirect_from:
         estimation in causal inference.
       </p>
 
-    </article>
+    </article> -->
 
     <article class="home-project">
 
