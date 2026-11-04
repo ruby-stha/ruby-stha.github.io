@@ -310,7 +310,7 @@ redirect_from:
       <strong>Controllable and counterfactual generation.</strong>
       I develop robust causal generative models that account for
       relationships between attributes, aiming for accurate controllable
-      and counterfactual generation even when attributes are strongly related.
+      and counterfactual generation even when attributes are strongly related in the factual dataset.
     </li>
   </ul>
 
