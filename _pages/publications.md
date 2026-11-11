@@ -7,6 +7,7 @@ author_profile: true
 
 <style>
   .publications-page {
+    font-size: 0.92em;
     line-height: 1.65;
   }
 
@@ -99,14 +100,14 @@ author_profile: true
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    min-height: 44px;
-    padding: 7px 15px;
+    min-height: 36px;
+    padding: 5px 12px;
     border: 1px solid #d5e6ee;
     border-radius: 6px;
     background: #f3f7fa;
     color: #28627a;
     font: inherit;
-    font-size: 0.85em;
+    font-size: 0.8em;
     font-weight: 600;
     line-height: 1.4;
     text-decoration: none;
