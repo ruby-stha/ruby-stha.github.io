@@ -84,7 +84,7 @@ updates:
   .ruby-updates .updates-year { margin: 28px 0 4px; border-bottom: 1px solid #e3e9ed; padding-bottom: 10px; }
   .ruby-updates .update-row { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 18px; align-items: start; padding: 15px 0; border-bottom: 1px solid #edf0f2; }
   .ruby-updates .update-date { display: inline-block; padding: 4px 8px; border-radius: 5px; background: #f3f7fa; color: #28627a; font-size: 0.8em; font-weight: 600; text-align: center; line-height: 1.6; }
-  .ruby-updates .update-copy { min-width: 0; font-size: 0.95em; line-height: 1.65; overflow-wrap: anywhere; }
+  .ruby-updates .update-copy { min-width: 0; font-size: 0.92em; line-height: 1.65; overflow-wrap: anywhere; }
   .ruby-updates .update-copy p { margin: 0; }
   .ruby-updates a:focus-visible { outline: 2px solid #28627a; outline-offset: 3px; }
   @media (max-width: 600px) {
