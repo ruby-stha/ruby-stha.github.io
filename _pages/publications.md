@@ -338,13 +338,36 @@ author_profile: true
     </div>
   </article>
 
-  <h2 class="pub-section-title">Preprints</h2>
+  <h2 class="pub-section-title">Under Review</h2>
 
-  <!-- Vela glitch -->
+  <!-- Minority image generation study -->
+
+  <article class="pub-card" aria-labelledby="pub-minority-generation">
+    <div class="pub-meta">
+      <span class="pub-badge">Under review</span>
+      <span>2026</span>
+    </div>
+
+    <h3 class="pub-title" id="pub-minority-generation">
+      Re-Examining the Impact of Observed Feature Correlations on Minority Image Generation
+    </h3>
+
+    <p class="pub-authors">
+      <strong>Ruby Shrestha</strong> et al.
+    </p>
+
+    <p class="pub-description">
+      Systematically evaluates how observed feature correlations affect minority image generation,
+      comparing generative models and mitigation strategies across synthetic, natural, and medical imaging datasets.
+    </p>
+  </article>
+
+  <!-- Pulsar manuscript (preprint available) -->
 
   <article class="pub-card" aria-labelledby="pub-pulsar">
     <div class="pub-meta">
-      <span class="pub-badge">arXiv preprint</span>
+      <span class="pub-badge">Under review</span>
+      <span>arXiv preprint available</span>
       <span>2026</span>
     </div>
 
