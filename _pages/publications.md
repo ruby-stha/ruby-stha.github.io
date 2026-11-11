@@ -357,8 +357,7 @@ author_profile: true
     </p>
 
     <p class="pub-description">
-      Systematically evaluates how observed feature correlations affect minority image generation,
-      comparing generative models and mitigation strategies across synthetic, natural, and medical imaging datasets.
+      Addresses conflicting assumptions across data augmentation, explainable AI, and causal modeling by systematically examining how feature correlations affect minority image generation and whether existing approaches can mitigate their impact.
     </p>
   </article>
 
