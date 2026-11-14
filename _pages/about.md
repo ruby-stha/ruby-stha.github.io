@@ -293,24 +293,21 @@ redirect_from:
     in the
     <a href="https://www.rit.edu/cblwang/directory">Computational Biomedicine Lab</a>.
     My research focuses on building
-    <strong>reliable deep generative models</strong>:
-    improving their robustness and controllability.
+    <strong>reliable deep generative models</strong>: improving their robustness and controllability.
   </p>
 
   <p>My current work explores these themes in image generation:</p>
 
   <ul class="home-themes">
     <li>
-      <strong>Robustness to attribute correlations.</strong>
-      I study how attribute correlations in training data limit
+      <strong>Robustness.</strong>
+      I study how correlations in training data limit
       generative models’ generalization to underrepresented attribute
       combinations, and develop approaches to address this challenge.
     </li>
     <li>
-      <strong>Controllable and counterfactual generation.</strong>
-      I develop robust causal generative models that account for
-      relationships between attributes, aiming for accurate controllable
-      and counterfactual generation even when attributes are strongly related in the factual dataset.
+      <strong>Controllability.</strong>
+        I develop causal generative models with a focus on improving the reliability of attribute-controlled image generation, thereby supporting valid interventional and counterfactual generation under varying strengths of causal relationships.
     </li>
   </ul>
 
