@@ -6,6 +6,11 @@ author_profile: true
 updates:
 - section: '2026'
   year: 2026
+  date: Nov 2026
+  text: 'Our paper, Re-Examining the Impact of Observed Feature Correlations on Minority Image Generation,
+    got accepted at **TMLR**.'
+- section: '2026'
+  year: 2026
   date: Oct 2026
   text: Served as a reviewer for **ICLR 2027**.
 - section: '2026'
