@@ -338,7 +338,7 @@ redirect_from:
       </h3>
 
       <p class="home-project-meta">
-        <strong>Under review</strong> &nbsp;·&nbsp; First author
+        <strong>Accepted at TMLR 2026</strong> &nbsp;·&nbsp; First author
       </p>
 
       <figure class="home-project-figure">

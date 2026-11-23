@@ -101,7 +101,7 @@ redirect_from:
         "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
 
       const pdf = await pdfjsLib.getDocument({
-        url: {{ '/files/RubyShrestha_Oct2026.pdf' | relative_url | jsonify }}
+        url: {{ '/files/RubyShrestha_CV_Nov2026.pdf' | relative_url | jsonify }}
       }).promise;
 
       for (let number = 1; number <= pdf.numPages; number++) {
