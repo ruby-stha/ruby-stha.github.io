@@ -186,6 +186,28 @@ author_profile: true
 
   <h2 class="pub-section-title">Peer-reviewed Publications</h2>
 
+  <!-- Minority image generation study -->
+
+  <article class="pub-card" aria-labelledby="pub-minority-generation">
+    <div class="pub-meta">
+      <span class="pub-badge">TMLR</span>
+      <span>2026</span>
+      <span>Accepted</span>
+    </div>
+
+    <h3 class="pub-title" id="pub-minority-generation">
+      Re-Examining the Impact of Observed Feature Correlations on Minority Image Generation
+    </h3>
+
+    <p class="pub-authors">
+      <strong>Ruby Shrestha</strong> et al.
+    </p>
+
+    <p class="pub-description">
+      Addresses conflicting assumptions across data augmentation, explainable AI, and causal modeling by systematically examining how feature correlations affect minority image generation and whether existing approaches can mitigate their impact.
+    </p>
+  </article>
+
   <!-- ProReGen -->
 
   <article class="pub-card" aria-labelledby="pub-proregen">
@@ -340,27 +362,6 @@ author_profile: true
   </article>
 
   <h2 class="pub-section-title">Under Review</h2>
-
-  <!-- Minority image generation study -->
-
-  <article class="pub-card" aria-labelledby="pub-minority-generation">
-    <div class="pub-meta">
-      <span class="pub-badge">Under review</span>
-      <span>2026</span>
-    </div>
-
-    <h3 class="pub-title" id="pub-minority-generation">
-      Re-Examining the Impact of Observed Feature Correlations on Minority Image Generation
-    </h3>
-
-    <p class="pub-authors">
-      <strong>Ruby Shrestha</strong> et al.
-    </p>
-
-    <p class="pub-description">
-      Addresses conflicting assumptions across data augmentation, explainable AI, and causal modeling by systematically examining how feature correlations affect minority image generation and whether existing approaches can mitigate their impact.
-    </p>
-  </article>
 
   <!-- Pulsar manuscript (preprint available) -->
 
